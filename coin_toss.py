@@ -13,9 +13,9 @@ import random
 random_number= random.randint(1,100)
 
 if (random_number > 51):
-    print('===== Coin Flipper ===== \n Tails')
+    print('===== Coin Flipper ===== \nTails')
 else:
-    print('===== Coin Flipper ===== \n Heads')
+    print('===== Coin Flipper ===== \nHeads')
 
 
 
