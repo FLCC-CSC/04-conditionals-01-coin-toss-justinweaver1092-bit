@@ -1,7 +1,7 @@
 # FILE NAME - coin_toss.py
 # NAME: Justin Weaver    
 # DATE: 10/2/25
-# BRIEF DESCRIPTION:  
+# BRIEF DESCRIPTION: Coin Toss
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
