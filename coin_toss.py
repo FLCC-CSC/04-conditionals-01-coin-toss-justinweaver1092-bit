@@ -1,15 +1,21 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Justin Weaver    
+# DATE: 10/2/25
+# BRIEF DESCRIPTION: Coin Toss
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
+import random
 
+print('===== Coin Flipper =====')
+random_number= random.randint(1,100)
 
-
+if (random_number >= 51):
+    print('Tails')
+else:
+    print('Heads')
 
 
 
@@ -44,7 +50,8 @@ Tails
 
 1. What was the hardest part of completing this lab? 
 
-
+Like everytime my code works perfectly fine in codespace. But codegrade always finds an extra space or something that doesnt match up perfectly with expected output.
+So the hardest part is getting everything to match perfectly.
 
 
 
@@ -62,6 +69,6 @@ like AI and internet sites like Chegg, CourseHero, StackOverflow, and general Go
 may impede your understanding. Please rate how well you understand the concepts in this lab: 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
-[ ] I pretty much get it.
+[x] I pretty much get it.
 [ ] I'm solid. Totally got it.
 '''
