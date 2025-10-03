@@ -7,16 +7,15 @@
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
-
 import random
 
+print('===== Coin Flipper =====')
 random_number= random.randint(1,100)
 
 if (random_number >= 51):
-    print('===== Coin Flipper ===== \nTails')
+    print('Tails')
 else:
-    print('===== Coin Flipper ===== \nHeads')
-
+    print('Heads')
 
 
 
